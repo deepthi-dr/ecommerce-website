@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body style="background-image: url('images/ca.jpeg');background-repeat: no-repeat;">
+      <div style="display: flex;">
+        <img style="margin: 3%;" src="images/images (1).jpeg" alt="" width="150" height="150" class="d-inline-block align-text-center">
+        <div style="display: flex;flex-direction: column;margin: 5%;">
+              <label style="font-size:x-large;margin-left: 30%;">Create Account</label>
+              <form action="home.html" style="border-radius: 25px;border:solid;border-color: #2eb8b8;border-width:2px; width:fit-content;" class="p-4">
+                 <!-- username input -->
+                 <div data-mdb-input-init class="form-outline mb-2">
+                    <label class="form-label" for="form2Example1">Username</label>
+                    <input required type="text" id="form2Example1" class="form-control" />
+                  </div>
+
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-2">
+                  <label class="form-label" for="form2Example1">Email address</label>
+                  <input required type="email" id="form2Example1" class="form-control" />
+                </div>
+              
+                <!-- Password input -->
+                <div data-mdb-input-init class="form-outline mb-2">
+                  <label class="form-label" for="form2Example2">Password</label>
+                  <input required type="password" id="form2Example2" class="form-control" />
+                </div>
+
+                <!-- Confirm Password input -->
+                <div data-mdb-input-init class="form-outline mb-2">
+                    <label class="form-label" for="form2Example2">Confirm Password</label>
+                    <input required type="password" id="form2Example2" class="form-control" />
+                </div>
+                <div>
+                    <h5 style="margin-bottom: 0px;margin-top: 5%;">How did you hear about us ?</h5>
+                    <div style="margin-bottom: -3%;">
+                        <input required type="radio" name="h">
+                        <label>Social Media</label>
+                    </div>
+                    <div style="margin-bottom: -3%;">
+                        <input type="radio" name="h">
+                        <label>News Channel</label>
+                    </div>
+                    <div style="margin-bottom: -3%;">
+                        <input type="radio" name="h">
+                        <label>News Paper</label>
+                    </div>
+                    <div style="margin-bottom: -3%;">
+                        <input type="radio" name="h">
+                        <label>Friend</label>
+                    </div>
+                </div>
+                <div style="margin-top: 5%;">
+                    <input required type="checkbox">
+                    <label>I have read and agree to the <a style="color:blue ;" href="Terms.html">terms and conditions</a></label>
+                </div>
+                <div style="margin-top: 5%;margin-left: 200px;">
+                    <button onclick="window.location.href='index.html';" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary" style="width: fit-content;">Cancel</button>
+                    <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary" style="width: fit-content;">Submit</button>
+                </div>
+              </form>
+            </div>
+      </div>  
+      
+      
+    </body>
+    <footer style="color: white;background-color:#2eb8b8;position: fixed;bottom: 0;width: 100%;text-align: center">
+        &copy 2024 Copyrights : The Story Shop
+    </footer>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body style="background-image: url('images/signon.jpg');background-repeat: no-repeat;">
+        <img style="margin-left: 20%;margin: 1%;" src="images/images (1).jpeg" alt="" width="100" height="100">
+        <a href="home.html">Home page</a>
+        <div class="container">
+          <div class="row">
+           
+            <div class="col">
+              <form action="products.html" style="margin-left: 20%;margin-top: 10%;border-radius: 25px;border:solid;border-color: #2eb8b8;border-width:2px; width:fit-content;" class="p-4">
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                  <label class="form-label" for="form2Example1">Email address</label>
+                  <input required type="email" id="form2Example1" class="form-control" />
+                </div>
+              
+                <!-- Password input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                  <label class="form-label" for="form2Example2">Password</label>
+                  <input required type="password" id="form2Example2" class="form-control" />
+                </div>
+              
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                  <div class="col d-flex justify-content-center">
+                    <!-- Checkbox -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                      <label class="form-check-label" for="form2Example31"> Remember me </label>
+                    </div>
+                  </div>
+              
+                  <div class="col">
+                    <!-- Simple link -->
+                    <a href="#!">Forgot password?</a>
+                  </div>
+                </div>
+              
+                <!-- Submit button -->
+                <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">Sign in</button>
+              </form>
+            </div>
+          </div>
+          <hr>
+          <div class="row" style="margin-left: 25%;">
+            <div class="col">
+              <label>New to The Story Shop ?</label>
+              <div>
+                <button onclick="window.location.href='createuser.html';" class="btn btn-info">Create your account</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+    <footer style="color: white;background-color:#2eb8b8;position: fixed;bottom: 0;width: 100%;text-align: center">
+        &copy 2024 Copyrights : The Story Shop
+    </footer>
+</html>
